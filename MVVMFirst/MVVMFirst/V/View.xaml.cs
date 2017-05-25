@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MVVMFirst
+namespace MVVMFirst.V
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy View.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class View : Window
     {
-        public MainWindow()
+        public View()
         {
             InitializeComponent();
         }
